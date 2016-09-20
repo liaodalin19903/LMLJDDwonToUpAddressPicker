@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480154231D90C5E500D996B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154221D90C5E500D996B1 /* main.m */; };
+		480154261D90C5E500D996B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154251D90C5E500D996B1 /* AppDelegate.m */; };
+		480154291D90C5E500D996B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154281D90C5E500D996B1 /* ViewController.m */; };
+		4801542C1D90C5E500D996B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4801542A1D90C5E500D996B1 /* Main.storyboard */; };
+		4801542E1D90C5E500D996B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4801542D1D90C5E500D996B1 /* Assets.xcassets */; };
+		480154311D90C5E500D996B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4801542F1D90C5E500D996B1 /* LaunchScreen.storyboard */; };
+		4801543C1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801543B1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests.m */; };
+		480154471D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154461D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests.m */; };
+		480154601D90C6EB00D996B1 /* cancelButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480154551D90C6EB00D996B1 /* cancelButton@2x.png */; };
+		480154611D90C6EB00D996B1 /* cancelButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480154561D90C6EB00D996B1 /* cancelButton@3x.png */; };
+		480154621D90C6EB00D996B1 /* LMLJDDownToUpAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154581D90C6EB00D996B1 /* LMLJDDownToUpAddressPicker.m */; };
+		480154631D90C6EB00D996B1 /* LMLJDDwonToUpArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 480154591D90C6EB00D996B1 /* LMLJDDwonToUpArea.plist */; };
+		480154641D90C6EB00D996B1 /* up_jiantou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4801545A1D90C6EB00D996B1 /* up_jiantou@2x.png */; };
+		480154651D90C6EB00D996B1 /* up_jiantou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4801545B1D90C6EB00D996B1 /* up_jiantou@3x.png */; };
+		480154661D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801545E1D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.m */; };
+		480154671D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4801545F1D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.xib */; };
+		480154691D90C80E00D996B1 /* zz_3address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 480154681D90C80E00D996B1 /* zz_3address.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480154381D90C5E500D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480154161D90C5E500D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4801541D1D90C5E500D996B1;
+			remoteInfo = LMLJDDwonToUpAddressPickerDemo;
+		};
+		480154431D90C5E500D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480154161D90C5E500D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4801541D1D90C5E500D996B1;
+			remoteInfo = LMLJDDwonToUpAddressPickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4801541E1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMLJDDwonToUpAddressPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480154221D90C5E500D996B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480154241D90C5E500D996B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		480154251D90C5E500D996B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480154271D90C5E500D996B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480154281D90C5E500D996B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4801542B1D90C5E500D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4801542D1D90C5E500D996B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480154301D90C5E500D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		480154321D90C5E500D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480154371D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLJDDwonToUpAddressPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4801543B1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLJDDwonToUpAddressPickerDemoTests.m; sourceTree = "<group>"; };
+		4801543D1D90C5E500D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480154421D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLJDDwonToUpAddressPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480154461D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLJDDwonToUpAddressPickerDemoUITests.m; sourceTree = "<group>"; };
+		480154481D90C5E500D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480154551D90C6EB00D996B1 /* cancelButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelButton@2x.png"; sourceTree = "<group>"; };
+		480154561D90C6EB00D996B1 /* cancelButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelButton@3x.png"; sourceTree = "<group>"; };
+		480154571D90C6EB00D996B1 /* LMLJDDownToUpAddressPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLJDDownToUpAddressPicker.h; sourceTree = "<group>"; };
+		480154581D90C6EB00D996B1 /* LMLJDDownToUpAddressPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLJDDownToUpAddressPicker.m; sourceTree = "<group>"; };
+		480154591D90C6EB00D996B1 /* LMLJDDwonToUpArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LMLJDDwonToUpArea.plist; sourceTree = "<group>"; };
+		4801545A1D90C6EB00D996B1 /* up_jiantou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_jiantou@2x.png"; sourceTree = "<group>"; };
+		4801545B1D90C6EB00D996B1 /* up_jiantou@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_jiantou@3x.png"; sourceTree = "<group>"; };
+		4801545D1D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLJDDownToUpAdressPickerCell.h; sourceTree = "<group>"; };
+		4801545E1D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLJDDownToUpAdressPickerCell.m; sourceTree = "<group>"; };
+		4801545F1D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLJDDownToUpAdressPickerCell.xib; sourceTree = "<group>"; };
+		480154681D90C80E00D996B1 /* zz_3address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zz_3address.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4801541B1D90C5E500D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154341D90C5E500D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4801543F1D90C5E500D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480154151D90C5E500D996B1 = {
+			isa = PBXGroup;
+			children = (
+				480154541D90C6EB00D996B1 /* LMLJDDwonToUpAddressPicker */,
+				480154201D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo */,
+				4801543A1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests */,
+				480154451D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests */,
+				4801541F1D90C5E500D996B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4801541F1D90C5E500D996B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4801541E1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo.app */,
+				480154371D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests.xctest */,
+				480154421D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480154201D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				480154241D90C5E500D996B1 /* AppDelegate.h */,
+				480154251D90C5E500D996B1 /* AppDelegate.m */,
+				480154271D90C5E500D996B1 /* ViewController.h */,
+				480154281D90C5E500D996B1 /* ViewController.m */,
+				4801542A1D90C5E500D996B1 /* Main.storyboard */,
+				4801542D1D90C5E500D996B1 /* Assets.xcassets */,
+				4801542F1D90C5E500D996B1 /* LaunchScreen.storyboard */,
+				480154321D90C5E500D996B1 /* Info.plist */,
+				480154211D90C5E500D996B1 /* Supporting Files */,
+			);
+			path = LMLJDDwonToUpAddressPickerDemo;
+			sourceTree = "<group>";
+		};
+		480154211D90C5E500D996B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480154221D90C5E500D996B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4801543A1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4801543B1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests.m */,
+				4801543D1D90C5E500D996B1 /* Info.plist */,
+			);
+			path = LMLJDDwonToUpAddressPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		480154451D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				480154461D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests.m */,
+				480154481D90C5E500D996B1 /* Info.plist */,
+			);
+			path = LMLJDDwonToUpAddressPickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		480154541D90C6EB00D996B1 /* LMLJDDwonToUpAddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				480154551D90C6EB00D996B1 /* cancelButton@2x.png */,
+				480154561D90C6EB00D996B1 /* cancelButton@3x.png */,
+				480154571D90C6EB00D996B1 /* LMLJDDownToUpAddressPicker.h */,
+				480154581D90C6EB00D996B1 /* LMLJDDownToUpAddressPicker.m */,
+				480154591D90C6EB00D996B1 /* LMLJDDwonToUpArea.plist */,
+				4801545A1D90C6EB00D996B1 /* up_jiantou@2x.png */,
+				4801545B1D90C6EB00D996B1 /* up_jiantou@3x.png */,
+				480154681D90C80E00D996B1 /* zz_3address.plist */,
+				4801545C1D90C6EB00D996B1 /* Views */,
+			);
+			path = LMLJDDwonToUpAddressPicker;
+			sourceTree = "<group>";
+		};
+		4801545C1D90C6EB00D996B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4801545D1D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.h */,
+				4801545E1D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.m */,
+				4801545F1D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4801541D1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4801544B1D90C5E500D996B1 /* Build configuration list for PBXNativeTarget "LMLJDDwonToUpAddressPickerDemo" */;
+			buildPhases = (
+				4801541A1D90C5E500D996B1 /* Sources */,
+				4801541B1D90C5E500D996B1 /* Frameworks */,
+				4801541C1D90C5E500D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMLJDDwonToUpAddressPickerDemo;
+			productName = LMLJDDwonToUpAddressPickerDemo;
+			productReference = 4801541E1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		480154361D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4801544E1D90C5E500D996B1 /* Build configuration list for PBXNativeTarget "LMLJDDwonToUpAddressPickerDemoTests" */;
+			buildPhases = (
+				480154331D90C5E500D996B1 /* Sources */,
+				480154341D90C5E500D996B1 /* Frameworks */,
+				480154351D90C5E500D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480154391D90C5E500D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLJDDwonToUpAddressPickerDemoTests;
+			productName = LMLJDDwonToUpAddressPickerDemoTests;
+			productReference = 480154371D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		480154411D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480154511D90C5E500D996B1 /* Build configuration list for PBXNativeTarget "LMLJDDwonToUpAddressPickerDemoUITests" */;
+			buildPhases = (
+				4801543E1D90C5E500D996B1 /* Sources */,
+				4801543F1D90C5E500D996B1 /* Frameworks */,
+				480154401D90C5E500D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480154441D90C5E500D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLJDDwonToUpAddressPickerDemoUITests;
+			productName = LMLJDDwonToUpAddressPickerDemoUITests;
+			productReference = 480154421D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480154161D90C5E500D996B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "优谱德";
+				TargetAttributes = {
+					4801541D1D90C5E500D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					480154361D90C5E500D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4801541D1D90C5E500D996B1;
+					};
+					480154411D90C5E500D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4801541D1D90C5E500D996B1;
+					};
+				};
+			};
+			buildConfigurationList = 480154191D90C5E500D996B1 /* Build configuration list for PBXProject "LMLJDDwonToUpAddressPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 480154151D90C5E500D996B1;
+			productRefGroup = 4801541F1D90C5E500D996B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4801541D1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo */,
+				480154361D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests */,
+				480154411D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4801541C1D90C5E500D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480154611D90C6EB00D996B1 /* cancelButton@3x.png in Resources */,
+				480154311D90C5E500D996B1 /* LaunchScreen.storyboard in Resources */,
+				4801542E1D90C5E500D996B1 /* Assets.xcassets in Resources */,
+				480154601D90C6EB00D996B1 /* cancelButton@2x.png in Resources */,
+				480154671D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.xib in Resources */,
+				480154641D90C6EB00D996B1 /* up_jiantou@2x.png in Resources */,
+				480154651D90C6EB00D996B1 /* up_jiantou@3x.png in Resources */,
+				480154691D90C80E00D996B1 /* zz_3address.plist in Resources */,
+				4801542C1D90C5E500D996B1 /* Main.storyboard in Resources */,
+				480154631D90C6EB00D996B1 /* LMLJDDwonToUpArea.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154351D90C5E500D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154401D90C5E500D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4801541A1D90C5E500D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480154661D90C6EB00D996B1 /* LMLJDDownToUpAdressPickerCell.m in Sources */,
+				480154291D90C5E500D996B1 /* ViewController.m in Sources */,
+				480154261D90C5E500D996B1 /* AppDelegate.m in Sources */,
+				480154621D90C6EB00D996B1 /* LMLJDDownToUpAddressPicker.m in Sources */,
+				480154231D90C5E500D996B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154331D90C5E500D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4801543C1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4801543E1D90C5E500D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480154471D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480154391D90C5E500D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4801541D1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo */;
+			targetProxy = 480154381D90C5E500D996B1 /* PBXContainerItemProxy */;
+		};
+		480154441D90C5E500D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4801541D1D90C5E500D996B1 /* LMLJDDwonToUpAddressPickerDemo */;
+			targetProxy = 480154431D90C5E500D996B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4801542A1D90C5E500D996B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4801542B1D90C5E500D996B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4801542F1D90C5E500D996B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480154301D90C5E500D996B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480154491D90C5E500D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4801544A1D90C5E500D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4801544C1D90C5E500D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLJDDwonToUpAddressPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLJDDwonToUpAddressPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4801544D1D90C5E500D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLJDDwonToUpAddressPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLJDDwonToUpAddressPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4801544F1D90C5E500D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLJDDwonToUpAddressPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLJDDwonToUpAddressPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLJDDwonToUpAddressPickerDemo.app/LMLJDDwonToUpAddressPickerDemo";
+			};
+			name = Debug;
+		};
+		480154501D90C5E500D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLJDDwonToUpAddressPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLJDDwonToUpAddressPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLJDDwonToUpAddressPickerDemo.app/LMLJDDwonToUpAddressPickerDemo";
+			};
+			name = Release;
+		};
+		480154521D90C5E500D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLJDDwonToUpAddressPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLJDDwonToUpAddressPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLJDDwonToUpAddressPickerDemo;
+			};
+			name = Debug;
+		};
+		480154531D90C5E500D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLJDDwonToUpAddressPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLJDDwonToUpAddressPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLJDDwonToUpAddressPickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480154191D90C5E500D996B1 /* Build configuration list for PBXProject "LMLJDDwonToUpAddressPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154491D90C5E500D996B1 /* Debug */,
+				4801544A1D90C5E500D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4801544B1D90C5E500D996B1 /* Build configuration list for PBXNativeTarget "LMLJDDwonToUpAddressPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4801544C1D90C5E500D996B1 /* Debug */,
+				4801544D1D90C5E500D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4801544E1D90C5E500D996B1 /* Build configuration list for PBXNativeTarget "LMLJDDwonToUpAddressPickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4801544F1D90C5E500D996B1 /* Debug */,
+				480154501D90C5E500D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480154511D90C5E500D996B1 /* Build configuration list for PBXNativeTarget "LMLJDDwonToUpAddressPickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154521D90C5E500D996B1 /* Debug */,
+				480154531D90C5E500D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 480154161D90C5E500D996B1 /* Project object */;
+}
